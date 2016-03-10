@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated);
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -21,5 +25,14 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension UIDevice { //Do Extension for getting SSID of wifi
+    public var SSID: String {
+        get {
+            //Do something here
+        }
+    }
+    
 }
 

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7551FF831C9170E500E3412D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF761C9170E500E3412D /* Alamofire.swift */; };
+		7551FF841C9170E500E3412D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF771C9170E500E3412D /* Download.swift */; };
+		7551FF851C9170E500E3412D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF781C9170E500E3412D /* Error.swift */; };
+		7551FF861C9170E500E3412D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF791C9170E500E3412D /* Manager.swift */; };
+		7551FF871C9170E500E3412D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7A1C9170E500E3412D /* MultipartFormData.swift */; };
+		7551FF881C9170E500E3412D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7B1C9170E500E3412D /* ParameterEncoding.swift */; };
+		7551FF891C9170E500E3412D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7C1C9170E500E3412D /* Request.swift */; };
+		7551FF8A1C9170E500E3412D /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7D1C9170E500E3412D /* ResponseSerialization.swift */; };
+		7551FF8B1C9170E500E3412D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7E1C9170E500E3412D /* Result.swift */; };
+		7551FF8C1C9170E500E3412D /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF7F1C9170E500E3412D /* ServerTrustPolicy.swift */; };
+		7551FF8D1C9170E500E3412D /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF801C9170E500E3412D /* Stream.swift */; };
+		7551FF8E1C9170E500E3412D /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF811C9170E500E3412D /* Upload.swift */; };
+		7551FF8F1C9170E500E3412D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551FF821C9170E500E3412D /* Validation.swift */; };
 		758EBA4A1C8E88A10064BEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA491C8E88A10064BEE6 /* AppDelegate.swift */; };
 		758EBA4C1C8E88A10064BEE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA4B1C8E88A10064BEE6 /* ViewController.swift */; };
 		758EBA4F1C8E88A10064BEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758EBA4D1C8E88A10064BEE6 /* Main.storyboard */; };
@@ -14,6 +27,11 @@
 		758EBA541C8E88A10064BEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758EBA521C8E88A10064BEE6 /* LaunchScreen.storyboard */; };
 		758EBA5F1C8E88A10064BEE6 /* DetectedWifiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA5E1C8E88A10064BEE6 /* DetectedWifiTests.swift */; };
 		758EBA6A1C8E88A10064BEE6 /* DetectedWifiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA691C8E88A10064BEE6 /* DetectedWifiUITests.swift */; };
+		758EBA781C8E89BA0064BEE6 /* DWLocaitonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA771C8E89BA0064BEE6 /* DWLocaitonManager.swift */; };
+		758EBA7A1C8E8A910064BEE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758EBA791C8E8A910064BEE6 /* CoreLocation.framework */; };
+		758EBA7E1C8E8F530064BEE6 /* DWConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA7D1C8E8F530064BEE6 /* DWConnection.swift */; };
+		758EBA821C8E924A0064BEE6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758EBA811C8E924A0064BEE6 /* Reachability.swift */; };
+		758EBA841C8ED2480064BEE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7551FF751C9170E500E3412D /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alamofire.h; path = Libraries/Alamofire/Alamofire.h; sourceTree = "<group>"; };
+		7551FF761C9170E500E3412D /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Libraries/Alamofire/Alamofire.swift; sourceTree = "<group>"; };
+		7551FF771C9170E500E3412D /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Libraries/Alamofire/Download.swift; sourceTree = "<group>"; };
+		7551FF781C9170E500E3412D /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Libraries/Alamofire/Error.swift; sourceTree = "<group>"; };
+		7551FF791C9170E500E3412D /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Libraries/Alamofire/Manager.swift; sourceTree = "<group>"; };
+		7551FF7A1C9170E500E3412D /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Libraries/Alamofire/MultipartFormData.swift; sourceTree = "<group>"; };
+		7551FF7B1C9170E500E3412D /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Libraries/Alamofire/ParameterEncoding.swift; sourceTree = "<group>"; };
+		7551FF7C1C9170E500E3412D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Libraries/Alamofire/Request.swift; sourceTree = "<group>"; };
+		7551FF7D1C9170E500E3412D /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Libraries/Alamofire/ResponseSerialization.swift; sourceTree = "<group>"; };
+		7551FF7E1C9170E500E3412D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Libraries/Alamofire/Result.swift; sourceTree = "<group>"; };
+		7551FF7F1C9170E500E3412D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Libraries/Alamofire/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		7551FF801C9170E500E3412D /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Libraries/Alamofire/Stream.swift; sourceTree = "<group>"; };
+		7551FF811C9170E500E3412D /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Libraries/Alamofire/Upload.swift; sourceTree = "<group>"; };
+		7551FF821C9170E500E3412D /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Libraries/Alamofire/Validation.swift; sourceTree = "<group>"; };
 		758EBA461C8E88A10064BEE6 /* DetectedWifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectedWifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758EBA491C8E88A10064BEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758EBA4B1C8E88A10064BEE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,11 @@
 		758EBA651C8E88A10064BEE6 /* DetectedWifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetectedWifiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758EBA691C8E88A10064BEE6 /* DetectedWifiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedWifiUITests.swift; sourceTree = "<group>"; };
 		758EBA6B1C8E88A10064BEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758EBA771C8E89BA0064BEE6 /* DWLocaitonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWLocaitonManager.swift; sourceTree = "<group>"; };
+		758EBA791C8E8A910064BEE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		758EBA7D1C8E8F530064BEE6 /* DWConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DWConnection.swift; path = Connections/DWConnection.swift; sourceTree = "<group>"; };
+		758EBA811C8E924A0064BEE6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Libraries/Reachability.swift; sourceTree = "<group>"; };
+		758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758EBA841C8ED2480064BEE6 /* SystemConfiguration.framework in Frameworks */,
+				758EBA7A1C8E8A910064BEE6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +113,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7551FF741C9170C600E3412D /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				7551FF751C9170E500E3412D /* Alamofire.h */,
+				7551FF761C9170E500E3412D /* Alamofire.swift */,
+				7551FF771C9170E500E3412D /* Download.swift */,
+				7551FF781C9170E500E3412D /* Error.swift */,
+				7551FF791C9170E500E3412D /* Manager.swift */,
+				7551FF7A1C9170E500E3412D /* MultipartFormData.swift */,
+				7551FF7B1C9170E500E3412D /* ParameterEncoding.swift */,
+				7551FF7C1C9170E500E3412D /* Request.swift */,
+				7551FF7D1C9170E500E3412D /* ResponseSerialization.swift */,
+				7551FF7E1C9170E500E3412D /* Result.swift */,
+				7551FF7F1C9170E500E3412D /* ServerTrustPolicy.swift */,
+				7551FF801C9170E500E3412D /* Stream.swift */,
+				7551FF811C9170E500E3412D /* Upload.swift */,
+				7551FF821C9170E500E3412D /* Validation.swift */,
+			);
+			name = Alamofire;
+			sourceTree = "<group>";
+		};
 		758EBA3D1C8E88A10064BEE6 = {
 			isa = PBXGroup;
 			children = (
+				758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */,
+				758EBA791C8E8A910064BEE6 /* CoreLocation.framework */,
 				758EBA481C8E88A10064BEE6 /* DetectedWifi */,
 				758EBA5D1C8E88A10064BEE6 /* DetectedWifiTests */,
 				758EBA681C8E88A10064BEE6 /* DetectedWifiUITests */,
@@ -97,12 +159,15 @@
 		758EBA481C8E88A10064BEE6 /* DetectedWifi */ = {
 			isa = PBXGroup;
 			children = (
+				758EBA801C8E92290064BEE6 /* Libraries */,
+				758EBA7F1C8E92110064BEE6 /* Connections */,
 				758EBA491C8E88A10064BEE6 /* AppDelegate.swift */,
 				758EBA4B1C8E88A10064BEE6 /* ViewController.swift */,
 				758EBA4D1C8E88A10064BEE6 /* Main.storyboard */,
 				758EBA501C8E88A10064BEE6 /* Assets.xcassets */,
 				758EBA521C8E88A10064BEE6 /* LaunchScreen.storyboard */,
 				758EBA551C8E88A10064BEE6 /* Info.plist */,
+				758EBA771C8E89BA0064BEE6 /* DWLocaitonManager.swift */,
 			);
 			path = DetectedWifi;
 			sourceTree = "<group>";
@@ -123,6 +188,23 @@
 				758EBA6B1C8E88A10064BEE6 /* Info.plist */,
 			);
 			path = DetectedWifiUITests;
+			sourceTree = "<group>";
+		};
+		758EBA7F1C8E92110064BEE6 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				7551FF741C9170C600E3412D /* Alamofire */,
+				758EBA7D1C8E8F530064BEE6 /* DWConnection.swift */,
+			);
+			name = Connections;
+			sourceTree = "<group>";
+		};
+		758EBA801C8E92290064BEE6 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				758EBA811C8E924A0064BEE6 /* Reachability.swift */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,12 +269,18 @@
 		758EBA3E1C8E88A10064BEE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DW;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Than Dang";
 				TargetAttributes = {
 					758EBA451C8E88A10064BEE6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					758EBA591C8E88A10064BEE6 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,8 +344,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7551FF851C9170E500E3412D /* Error.swift in Sources */,
+				7551FF891C9170E500E3412D /* Request.swift in Sources */,
+				7551FF831C9170E500E3412D /* Alamofire.swift in Sources */,
+				7551FF8D1C9170E500E3412D /* Stream.swift in Sources */,
+				7551FF8F1C9170E500E3412D /* Validation.swift in Sources */,
+				758EBA7E1C8E8F530064BEE6 /* DWConnection.swift in Sources */,
+				7551FF8B1C9170E500E3412D /* Result.swift in Sources */,
 				758EBA4C1C8E88A10064BEE6 /* ViewController.swift in Sources */,
+				7551FF871C9170E500E3412D /* MultipartFormData.swift in Sources */,
+				7551FF881C9170E500E3412D /* ParameterEncoding.swift in Sources */,
 				758EBA4A1C8E88A10064BEE6 /* AppDelegate.swift in Sources */,
+				758EBA821C8E924A0064BEE6 /* Reachability.swift in Sources */,
+				7551FF841C9170E500E3412D /* Download.swift in Sources */,
+				7551FF8E1C9170E500E3412D /* Upload.swift in Sources */,
+				7551FF861C9170E500E3412D /* Manager.swift in Sources */,
+				7551FF8C1C9170E500E3412D /* ServerTrustPolicy.swift in Sources */,
+				7551FF8A1C9170E500E3412D /* ResponseSerialization.swift in Sources */,
+				758EBA781C8E89BA0064BEE6 /* DWLocaitonManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DetectedWifi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apide.DetectedWifi;
@@ -408,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DetectedWifi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apide.DetectedWifi;
@@ -482,6 +588,7 @@
 				758EBA701C8E88A10064BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		758EBA711C8E88A10064BEE6 /* Build configuration list for PBXNativeTarget "DetectedWifiTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +597,7 @@
 				758EBA731C8E88A10064BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		758EBA741C8E88A10064BEE6 /* Build configuration list for PBXNativeTarget "DetectedWifiUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +606,7 @@
 				758EBA761C8E88A10064BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
