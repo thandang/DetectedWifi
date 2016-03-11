@@ -106,8 +106,50 @@ final class ServerRequest: NSObject {
     }
     
     func logout(token: String, callback: (AnyObject?, ErrorType) -> Void) {
-        
+        let logoutUrl = MAIN_URL + CSPath.Logout.rawValue
+//        var params = postpa
     }
     
-    func
+
+}
+
+
+//MARK: response
+extension ServerRequest {
+    func postParams() -> [String: String] {
+        return ["keyparam" : cookieString]
+    }
+    
+    func response <T: Mappable> (alaResponse: (NSURLRequest?, NSHTTPURLResponse?, Result<String>), myResponse: T.Type, callback: (AnyObject?, ErrorType) -> Void, retryCallback: ((DWResponse) -> ())?) {
+        self.updateCookie()
+        //Do something else
+    }
+}
+
+//MARK: Response Object
+public class DWResponse: NSObject, Mappable { //Invoke delegate
+    public var status: Int? //Optional
+    public var message: String?
+    
+    //Invoke delegate
+    required public init?(_ map: Map) {
+        super.init()
+    }
+    
+    public func mapping(map: Map) {
+        status <- map["status"]
+        message <- map["message"]
+    }
+}
+
+
+public class specificRespponse: DWResponse { //Inheritance class
+    required public init?(_ map: Map) {
+        super.init(map)
+    }
+    
+    override public func mapping(map: Map) {
+        super.mapping(map)
+        //Do stuff with other properies
+    }
 }
