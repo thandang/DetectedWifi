@@ -98,4 +98,16 @@ final class ServerRequest: NSObject {
             cookieString = ""
         }
     }
+    
+    
+    //MARK: login API
+    func login(userEmail: String, password: String, callback: (AnyObject?, ErrorType) -> Void) { //return void
+        
+    }
+    
+    func logout(token: String, callback: (AnyObject?, ErrorType) -> Void) {
+        
+    }
+    
+    func
 }
