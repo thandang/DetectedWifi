@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62E2710DDA204136C723444F /* Pods_DetectedWifi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A022E8B05589B6B63E1555 /* Pods_DetectedWifi.framework */; };
 		7522CF9E1C92AB41001012CF /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522CF991C92AB41001012CF /* FromJSON.swift */; };
 		7522CF9F1C92AB41001012CF /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522CF9A1C92AB41001012CF /* Map.swift */; };
 		7522CFA01C92AB41001012CF /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522CF9B1C92AB41001012CF /* Mapper.swift */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A022E8B05589B6B63E1555 /* Pods_DetectedWifi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectedWifi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7522CF991C92AB41001012CF /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Libraries/ObjectMapper/Core/FromJSON.swift; sourceTree = "<group>"; };
 		7522CF9A1C92AB41001012CF /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Libraries/ObjectMapper/Core/Map.swift; sourceTree = "<group>"; };
 		7522CF9B1C92AB41001012CF /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Libraries/ObjectMapper/Core/Mapper.swift; sourceTree = "<group>"; };
@@ -120,6 +122,8 @@
 		758EBA7D1C8E8F530064BEE6 /* DWConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DWConnection.swift; path = Connections/DWConnection.swift; sourceTree = "<group>"; };
 		758EBA811C8E924A0064BEE6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Libraries/Reachability.swift; sourceTree = "<group>"; };
 		758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		88976E86B485F899AF6F1763 /* Pods-DetectedWifi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectedWifi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DetectedWifi/Pods-DetectedWifi.debug.xcconfig"; sourceTree = "<group>"; };
+		8F2A910449AEB3EB7C645F98 /* Pods-DetectedWifi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectedWifi.release.xcconfig"; path = "Pods/Target Support Files/Pods-DetectedWifi/Pods-DetectedWifi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			files = (
 				758EBA841C8ED2480064BEE6 /* SystemConfiguration.framework in Frameworks */,
 				758EBA7A1C8E8A910064BEE6 /* CoreLocation.framework in Frameworks */,
+				62E2710DDA204136C723444F /* Pods_DetectedWifi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +154,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04CD95FC26745AD37666A180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88976E86B485F899AF6F1763 /* Pods-DetectedWifi.debug.xcconfig */,
+				8F2A910449AEB3EB7C645F98 /* Pods-DetectedWifi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3642BC9D1C967557008AFCB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */,
+				758EBA791C8E8A910064BEE6 /* CoreLocation.framework */,
+				11A022E8B05589B6B63E1555 /* Pods_DetectedWifi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7522CF961C92AB1F001012CF /* ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,12 +238,12 @@
 		758EBA3D1C8E88A10064BEE6 = {
 			isa = PBXGroup;
 			children = (
-				758EBA831C8ED2480064BEE6 /* SystemConfiguration.framework */,
-				758EBA791C8E8A910064BEE6 /* CoreLocation.framework */,
+				3642BC9D1C967557008AFCB8 /* Frameworks */,
 				758EBA481C8E88A10064BEE6 /* DetectedWifi */,
 				758EBA5D1C8E88A10064BEE6 /* DetectedWifiTests */,
 				758EBA681C8E88A10064BEE6 /* DetectedWifiUITests */,
 				758EBA471C8E88A10064BEE6 /* Products */,
+				04CD95FC26745AD37666A180 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -292,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 758EBA6E1C8E88A10064BEE6 /* Build configuration list for PBXNativeTarget "DetectedWifi" */;
 			buildPhases = (
+				3CD83B244589C5E0AADBEB13 /* Check Pods Manifest.lock */,
 				758EBA421C8E88A10064BEE6 /* Sources */,
 				758EBA431C8E88A10064BEE6 /* Frameworks */,
 				758EBA441C8E88A10064BEE6 /* Resources */,
+				F449DC1A1CD14737CD26257C /* Embed Pods Frameworks */,
+				3548B155C8D769330380D42C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,6 +443,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3548B155C8D769330380D42C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectedWifi/Pods-DetectedWifi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD83B244589C5E0AADBEB13 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F449DC1A1CD14737CD26257C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectedWifi/Pods-DetectedWifi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		758EBA421C8E88A10064BEE6 /* Sources */ = {
@@ -595,9 +670,9 @@
 		};
 		758EBA6F1C8E88A10064BEE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88976E86B485F899AF6F1763 /* Pods-DetectedWifi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DetectedWifi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apide.DetectedWifi;
@@ -607,9 +682,9 @@
 		};
 		758EBA701C8E88A10064BEE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2A910449AEB3EB7C645F98 /* Pods-DetectedWifi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DetectedWifi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apide.DetectedWifi;

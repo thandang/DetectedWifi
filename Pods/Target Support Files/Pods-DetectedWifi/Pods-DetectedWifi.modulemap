@@ -1,0 +1,6 @@
+framework module Pods_DetectedWifi {
+  umbrella header "Pods-DetectedWifi-umbrella.h"
+
+  export *
+  module * { export * }
+}
