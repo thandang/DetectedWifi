@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '479D008DF3CAEF9D5686DE30'
+               BlueprintIdentifier = 'D78BD1AEC63917D2B7E8D883'
                BlueprintName = 'Pods-DetectedWifi'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_DetectedWifi.framework'>

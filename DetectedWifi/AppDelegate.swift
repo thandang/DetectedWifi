@@ -80,10 +80,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("signalStrength: \(signalStrength)")
             }
         } else {
-            let interfaces = CNCopySupportedInterfaces()
-            if interfaces != nil {
-//                let interfacesArray = interfaces.takeRetain
-            }
+//            let interfaces = CNCopySupportedInterfaces()
+//            if interfaces != nil {
+////                let interfacesArray = interfaces.takeRetain
+//            }
         }
         
         return currentSSID

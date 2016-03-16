@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 let API = ServerRequest._instance
 let MAIN_URL = "https://come-stay.vn/real_estate/json"
@@ -106,7 +107,7 @@ final class ServerRequest: NSObject {
     }
     
     func logout(token: String, callback: (AnyObject?, ErrorType) -> Void) {
-        let logoutUrl = MAIN_URL + CSPath.Logout.rawValue
+//        let logoutUrl = MAIN_URL + CSPath.Logout.rawValue
 //        var params = postpa
     }
     
@@ -119,6 +120,8 @@ extension ServerRequest {
     func postParams() -> [String: String] {
         return ["keyparam" : cookieString]
     }
+    
+    
     
     func response <T: Mappable> (alaResponse: (NSURLRequest?, NSHTTPURLResponse?, Result<String>), myResponse: T.Type, callback: (AnyObject?, ErrorType) -> Void, retryCallback: ((DWResponse) -> ())?) {
         self.updateCookie()

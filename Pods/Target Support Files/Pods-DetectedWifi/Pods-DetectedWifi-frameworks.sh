@@ -91,7 +91,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-DetectedWifi/SVProgressHUD.framework"
   install_framework "Pods-DetectedWifi/SlackTextViewController.framework"
   install_framework "Pods-DetectedWifi/SnapKit.framework"
-  install_framework "Pods-DetectedWifi/Spring.framework"
   install_framework "Pods-DetectedWifi/SwiftyJSON.framework"
   install_framework "Pods-DetectedWifi/iRate.framework"
 fi
@@ -103,7 +102,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-DetectedWifi/SVProgressHUD.framework"
   install_framework "Pods-DetectedWifi/SlackTextViewController.framework"
   install_framework "Pods-DetectedWifi/SnapKit.framework"
-  install_framework "Pods-DetectedWifi/Spring.framework"
   install_framework "Pods-DetectedWifi/SwiftyJSON.framework"
   install_framework "Pods-DetectedWifi/iRate.framework"
 fi

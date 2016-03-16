@@ -28,11 +28,11 @@ class ViewController: UIViewController {
 }
 
 extension UIDevice { //Do Extension for getting SSID of wifi
-    public var SSID: String {
-        get {
-            //Do something here
-        }
-    }
+//    public var SSID: String {
+//        get {
+//            //Do something here
+//        }
+//    }
     
 }
 
